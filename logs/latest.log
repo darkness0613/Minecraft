@@ -1,0 +1,221 @@
+[21:13:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[21:14:00] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:14:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:14:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:14:00] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:14:00] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:14:00] [main/INFO]: Reloading ResourceManager: Default
+[21:14:01] [Worker-Main-11/INFO]: Loaded 7 recipes
+[21:14:01] [Worker-Main-11/INFO]: Loaded 927 advancements
+[21:14:03] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[21:14:03] [Server thread/INFO]: Loading properties
+[21:14:03] [Server thread/INFO]: Default game type: SURVIVAL
+[21:14:03] [Server thread/INFO]: Generating keypair
+[21:14:03] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_251]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_251]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
+	at yd$1.run(SourceFile:90) [server.jar:?]
+[21:14:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:14:03] [Server thread/INFO]: Using default channel type
+[21:14:07] [Server thread/INFO]: Preparing level "world"
+[21:14:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[21:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[21:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[21:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[21:14:10] [Server thread/INFO]: Preparing spawn area: 0%
+[21:14:11] [Server thread/INFO]: Preparing spawn area: 64%
+[21:14:12] [Server thread/INFO]: Time elapsed: 3723 ms
+[21:14:12] [Server thread/INFO]: Done (4.598s)! For help, type "help"
+[21:14:12] [User Authenticator #1/INFO]: UUID of player KeiShirogan is aa4b32e2-ee31-4076-92fe-d107e78bd83f
+[21:14:12] [User Authenticator #2/INFO]: UUID of player SuzumeSatomi is fd6564ac-c005-4974-9f55-20ac12d405ab
+[21:14:13] [Server thread/INFO]: KeiShirogan[/98.149.49.154:62551] logged in with entity id 245 at (-334.1907752875541, 81.47525444942441, 298.51138733206113)
+[21:14:13] [Server thread/INFO]: KeiShirogan joined the game
+[21:14:13] [Server thread/INFO]: SuzumeSatomi[/127.0.0.1:33855] logged in with entity id 246 at (-321.90223252766225, 65.0, 251.82712227539994)
+[21:14:13] [Server thread/INFO]: SuzumeSatomi joined the game
+[21:14:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[21:14:25] [Server thread/INFO]: [SuzumeSatomi: Set the weather to rain]
+[21:14:30] [Server thread/INFO]: [SuzumeSatomi: Set the weather to clear]
+[21:14:43] [Server thread/INFO]: KeiShirogan lost connection: Disconnected
+[21:14:43] [Server thread/INFO]: KeiShirogan left the game
+[21:14:44] [Server thread/INFO]: [SuzumeSatomi: Set the time to 6000]
+[21:14:54] [Server thread/INFO]: Villager bdp['Mason'/3, l='ServerLevel[world]', x=-238.60, y=67.00, z=291.01] died, message: 'Mason was slain by Zombie'
+[21:15:16] [User Authenticator #3/INFO]: UUID of player KeiShirogan is aa4b32e2-ee31-4076-92fe-d107e78bd83f
+[21:15:16] [Server thread/INFO]: KeiShirogan[/98.149.49.154:62720] logged in with entity id 382 at (-334.1907752875541, 79.0, 298.51138733206113)
+[21:15:16] [Server thread/INFO]: KeiShirogan joined the game
+[21:16:02] [Server thread/INFO]: SuzumeSatomi has made the advancement [Spooky Scary Skeleton]
+[21:16:11] [Server thread/INFO]: SuzumeSatomi has made the advancement [Cover Me With Diamonds]
+[21:16:26] [Server thread/INFO]: KeiShirogan has completed the challenge [Cover Me in Debris]
+[21:16:32] [Server thread/INFO]: [SuzumeSatomi: Set own game mode to Survival Mode]
+[21:17:11] [Server thread/INFO]: [SuzumeSatomi: Set own game mode to Creative Mode]
+[21:17:38] [Server thread/INFO]: [SuzumeSatomi: Set own game mode to Survival Mode]
+[21:18:17] [Server thread/INFO]: KeiShirogan lost connection: Timed out
+[21:18:17] [Server thread/INFO]: KeiShirogan left the game
+[21:18:26] [User Authenticator #4/INFO]: UUID of player KeiShirogan is aa4b32e2-ee31-4076-92fe-d107e78bd83f
+[21:18:26] [Server thread/INFO]: KeiShirogan[/98.149.49.154:63120] logged in with entity id 740 at (-317.48367222483733, 65.0, 255.8469621578189)
+[21:18:26] [Server thread/INFO]: KeiShirogan joined the game
+[21:18:56] [Server thread/INFO]: KeiShirogan lost connection: Timed out
+[21:18:56] [Server thread/INFO]: KeiShirogan left the game
+[21:19:22] [User Authenticator #5/INFO]: UUID of player KeiShirogan is aa4b32e2-ee31-4076-92fe-d107e78bd83f
+[21:19:22] [Server thread/INFO]: KeiShirogan[/98.149.49.154:63272] logged in with entity id 881 at (-317.99633365262355, 65.0, 255.19047122943536)
+[21:19:22] [Server thread/INFO]: KeiShirogan joined the game
+[21:19:39] [Server thread/INFO]: [SuzumeSatomi: Set the weather to clear]
+[21:20:42] [Server thread/INFO]: [KeiShirogan: Set own game mode to Survival Mode]
+[21:20:51] [Server thread/INFO]: SuzumeSatomi has made the advancement [Withering Heights]
+[21:20:51] [Server thread/INFO]: KeiShirogan has made the advancement [Withering Heights]
+[21:21:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1116, l='ServerLevel[world]', x=-323.27, y=63.66, z=252.78]
+[21:21:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1116, l='ServerLevel[world]', x=-323.27, y=63.66, z=252.78]
+[21:21:08] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1122, l='ServerLevel[world]', x=-325.10, y=65.00, z=254.48]
+[21:21:08] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1122, l='ServerLevel[world]', x=-325.10, y=65.00, z=254.48]
+[21:21:08] [Server thread/INFO]: SuzumeSatomi has made the advancement [Take Aim]
+[21:21:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1134, l='ServerLevel[world]', x=-327.73, y=64.00, z=254.56]
+[21:21:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1134, l='ServerLevel[world]', x=-327.73, y=64.00, z=254.56]
+[21:21:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1148, l='ServerLevel[world]', x=-329.40, y=65.00, z=254.26]
+[21:21:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1148, l='ServerLevel[world]', x=-329.40, y=65.00, z=254.26]
+[21:21:19] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1179, l='ServerLevel[world]', x=-331.49, y=65.00, z=278.54]
+[21:21:19] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1179, l='ServerLevel[world]', x=-331.49, y=65.00, z=278.54]
+[21:21:37] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1310, l='ServerLevel[world]', x=-329.50, y=78.00, z=346.50]
+[21:21:37] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/1310, l='ServerLevel[world]', x=-329.50, y=78.00, z=346.50]
+[21:22:21] [Server thread/INFO]: SuzumeSatomi was slain by Enderman
+[21:22:31] [Server thread/INFO]: KeiShirogan has made the advancement [Cover Me With Diamonds]
+[21:23:41] [Server thread/WARN]: Fetching packet for removed entity bbg['Dandelion'/2155, l='ServerLevel[world]', x=-266.34, y=68.42, z=388.67]
+[21:23:41] [Server thread/WARN]: Fetching packet for removed entity bbg['Dandelion'/2155, l='ServerLevel[world]', x=-266.34, y=68.42, z=388.67]
+[21:23:41] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/2156, l='ServerLevel[world]', x=-266.53, y=67.36, z=387.61]
+[21:23:41] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/2156, l='ServerLevel[world]', x=-266.53, y=67.36, z=387.61]
+[21:25:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/2725, l='ServerLevel[world]', x=-245.42, y=63.49, z=359.69]
+[21:25:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/2725, l='ServerLevel[world]', x=-245.42, y=63.49, z=359.69]
+[21:26:28] [Server thread/INFO]: SuzumeSatomi was shot by Skeleton
+[21:26:52] [Server thread/WARN]: Fetching packet for removed entity bbg['Wheat Seeds'/3315, l='ServerLevel[world]', x=-269.34, y=69.74, z=433.69]
+[21:26:52] [Server thread/WARN]: Fetching packet for removed entity bbg['Wheat Seeds'/3315, l='ServerLevel[world]', x=-269.34, y=69.74, z=433.69]
+[21:27:09] [Server thread/INFO]: SuzumeSatomi was slain by Zombie
+[21:27:34] [Server thread/INFO]: [SuzumeSatomi: Set own game mode to Creative Mode]
+[21:28:12] [Server thread/INFO]: KeiShirogan was shot by a Wither's skull
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Sword'/3716, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Sword'/3716, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Bow'/3717, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Bow'/3717, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['White Wool'/3718, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['White Wool'/3718, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Arrow of Harming'/3719, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Arrow of Harming'/3719, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['String'/3720, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['String'/3720, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3721, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3721, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Oak Planks'/3722, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Oak Planks'/3722, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Anvil'/3723, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Anvil'/3723, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Cooked Rabbit'/3724, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Cooked Rabbit'/3724, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Block of Quartz'/3725, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Block of Quartz'/3725, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Chestplate'/3726, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Chestplate'/3726, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Birch Stairs'/3727, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Birch Stairs'/3727, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Helmet'/3728, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Helmet'/3728, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Totem of Undying'/3729, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Totem of Undying'/3729, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Emerald'/3730, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Emerald'/3730, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3731, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3731, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Sword'/3732, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Sword'/3732, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Gravel'/3733, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Gravel'/3733, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Rotten Flesh'/3734, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Rotten Flesh'/3734, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Soul Sand'/3735, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Soul Sand'/3735, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Torch'/3736, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Torch'/3736, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Wheat Seeds'/3737, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Wheat Seeds'/3737, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Stone Bricks'/3738, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Stone Bricks'/3738, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/3739, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Wither Rose'/3739, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Jungle Leaves'/3740, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Jungle Leaves'/3740, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Boots'/3741, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Diamond Boots'/3741, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3742, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3742, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Sunflower'/3743, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Sunflower'/3743, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Cornflower'/3744, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Cornflower'/3744, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Poppy'/3745, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Poppy'/3745, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Oxeye Daisy'/3746, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Oxeye Daisy'/3746, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3747, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3747, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Spectral Arrow'/3748, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Spectral Arrow'/3748, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3749, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/3749, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Cooked Mutton'/3750, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Cooked Mutton'/3750, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Boots'/3751, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Boots'/3751, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Leggings'/3752, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Leggings'/3752, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Chestplate'/3753, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Chestplate'/3753, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Helmet'/3754, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Netherite Helmet'/3754, l='ServerLevel[world]', x=-194.69, y=70.32, z=377.82]
+[21:28:16] [Server thread/INFO]: KeiShirogan lost connection: Disconnected
+[21:28:16] [Server thread/INFO]: KeiShirogan left the game
+[21:28:23] [User Authenticator #6/INFO]: UUID of player KeiShirogan is aa4b32e2-ee31-4076-92fe-d107e78bd83f
+[21:28:23] [Server thread/INFO]: KeiShirogan[/98.149.49.154:64391] logged in with entity id 3784 at (-194.6900379092392, 69.0, 377.82065382179366)
+[21:28:23] [Server thread/INFO]: KeiShirogan joined the game
+[21:28:39] [Server thread/INFO]: [KeiShirogan: Set own game mode to Creative Mode]
+[21:29:01] [Server thread/INFO]: [SuzumeSatomi: Set the time to 6000]
+[21:30:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Leather'/4360, l='ServerLevel[world]', x=-239.57, y=66.00, z=299.18]
+[21:30:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Leather'/4360, l='ServerLevel[world]', x=-239.57, y=66.00, z=299.18]
+[21:30:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Raw Beef'/4361, l='ServerLevel[world]', x=-239.57, y=66.00, z=299.18]
+[21:30:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Raw Beef'/4361, l='ServerLevel[world]', x=-239.57, y=66.00, z=299.18]
+[21:30:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Egg'/3924, l='ServerLevel[world]', x=-210.41, y=70.00, z=302.58]
+[21:30:19] [Server thread/INFO]: [KeiShirogan: Set own game mode to Survival Mode]
+[21:33:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/5479, l='ServerLevel[world]', x=-279.47, y=61.66, z=257.45]
+[21:33:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/5479, l='ServerLevel[world]', x=-279.47, y=61.66, z=257.45]
+[21:34:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2534ms or 50 ticks behind
+[21:36:01] [Server thread/INFO]: [KeiShirogan: Set own game mode to Creative Mode]
+[21:37:52] [Server thread/WARN]: KeiShirogan moved too quickly! -10.095064739496877,0.0,-0.7210314983752824
+[21:38:49] [Server thread/INFO]: [SuzumeSatomi: Set own game mode to Survival Mode]
+[21:39:36] [Server thread/INFO]: SuzumeSatomi was killed by Elder Guardian using magic
+[21:39:45] [Server thread/INFO]: [SuzumeSatomi: Set own game mode to Creative Mode]
+[21:40:12] [Server thread/INFO]: [KeiShirogan: Set own game mode to Survival Mode]
+[21:41:12] [Server thread/INFO]: [KeiShirogan: Set own game mode to Creative Mode]
+[21:45:08] [Server thread/INFO]: SuzumeSatomi fell out of the world
+[21:47:37] [Server thread/INFO]: SuzumeSatomi lost connection: Disconnected
+[21:47:37] [Server thread/INFO]: SuzumeSatomi left the game
+[21:47:40] [Server thread/INFO]: KeiShirogan lost connection: Disconnected
+[21:47:40] [Server thread/INFO]: KeiShirogan left the game
+[21:51:42] [Server thread/INFO]: Stopping the server
+[21:51:42] [Server thread/INFO]: Stopping server
+[21:51:42] [Server thread/INFO]: Saving players
+[21:51:42] [Server thread/INFO]: Saving worlds
+[21:51:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:51:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:51:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:51:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:51:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:51:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:51:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:51:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:51:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
